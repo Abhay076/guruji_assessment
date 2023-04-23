@@ -25,7 +25,7 @@ app.use("/api/v1/user", userRoutes);
 app.use("/api/v1/todo", TodoRoutes);
 
 app.get("/", function (req, res) {
-  res.end("<h1> App is Running</h1>");
+  res.end("<h1> App is Running!</h1>");
 });
 
 app.listen(port, function (err) {
